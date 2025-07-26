@@ -2,7 +2,7 @@
 Roblox Custom Typeface Registration
 
 ```lua
-local Typeface = loadstring(game:HttpGet("https://github.com/0hook/Typeface/raw/refs/heads/main/Register.lua"))()
+local Typeface = loadstring(game:HttpGet("https://github.com/nullcrisis/Typeface/raw/refs/heads/main/Register.lua"))()
 
 local Font, Face = Typeface:Register{
     Url = "https://github.com/0hook/Typeface/raw/refs/heads/main/Fonts/Verdana.ttf", -- Use a direct (raw) .ttf file URL
