@@ -5,7 +5,7 @@ Roblox Custom Typeface Registration
 local Typeface = loadstring(game:HttpGet("https://github.com/nullcrisis/Typeface/raw/refs/heads/main/Register.lua"))()
 
 local Font, Face = Typeface:Register{
-    Url = "https://github.com/0hook/Typeface/raw/refs/heads/main/Fonts/Verdana.ttf", -- Use a direct (raw) .ttf file URL
+    Url = "https://github.com/nullcrisis/Typeface/raw/refs/heads/main/Fonts/Verdana.ttf", -- Use a direct (raw) .ttf file URL
     Name = "Verdana",
     Weight = "Regular",
     Style = "Normal",
@@ -13,7 +13,7 @@ local Font, Face = Typeface:Register{
 }
 
 local BoldFont = Face:Register{
-    Url = "https://github.com/0hook/Typeface/raw/refs/heads/main/Fonts/VerdanaBold.ttf",
+    Url = "https://github.com/nullcrisis/Typeface/raw/refs/heads/main/Fonts/VerdanaBold.ttf",
     Weight = "Bold",
 }
 
