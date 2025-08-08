@@ -78,7 +78,6 @@ function Library:CreateFont()
     end)
 
     Library.Throw(Success, `Failed to fetch "{Info.Name}-{Info.Weight}-{Info.Style}" file!`)
-    warn(`Successfully fetched "{Info.Name}-{Info.Weight}-{Info.Style}" file!`)
 
     writefile(Info.FontPath, Result)
 end
